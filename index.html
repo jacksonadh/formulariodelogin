@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>Login Elev'up</title>
+</head>
+
+<body>
+  <main>
+    <aside class="image">
+    </aside>
+
+    <aside class="login-content">
+      <img src="./assets/LogomarcaElevUp.png" alt="logo ElevUp" class="logo" />
+      <h1>Login</h1>
+      <p>Bem vindo, faça login para acessar o sistema.</p>
+      <form>
+        <div class="input-container">
+          <input type="email" id="email" placeholder="EMAIL" />
+          <i data-feather="user"></i>
+        </div>
+
+        <div class="input-container">
+          <input type="password" id="password" placeholder="SENHA" />
+          <i data-feather="lock"></i>
+        </div>
+        <button type="submit">ENTRAR</button>
+        <div class="lembrar">
+          <input id="checkbox" type="checkbox" />
+          <label for="checkbox">Lembrar-me</label>
+        </div>
+
+    </aside>
+  </main>
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
