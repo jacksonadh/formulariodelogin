@@ -31,7 +31,7 @@ aside {
 
 .login-content .logo {
   width: 417px;
-  margin: 100px 0;
+  margin: 100px 0 100px 10px;
 }
 
 .login-content h1 {
@@ -42,6 +42,7 @@ aside {
   line-height: 120px;
   letter-spacing: 0em;
   text-align: left;
+  margin-left: 10px;
 }
 
 .login-content p {
@@ -52,6 +53,7 @@ aside {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  margin-left: 10px;
 }
 
 .login-content .input-container {
@@ -59,7 +61,7 @@ aside {
 }
 
 .login-content input, button {
-  width: 230px;
+  width: 250px;
   padding: 9px;
   margin: 10px;
   background-color: var(--yellow);
@@ -71,10 +73,11 @@ aside {
   font-style: normal;
   font-weight: 500;
   color: var(--black);
+
 }
 
 .login-content input {
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 .login-content input::placeholder {
@@ -86,10 +89,11 @@ aside {
 }
 
 .login-content input:focus{
-  width: 230px;
+  width: 250px;
   padding: 9px;
   background-color: var(--light-yellow);
   border-color: var(--light-yellow);
+  padding-left: 50px;
 }
 
 .login-content button {
@@ -122,8 +126,29 @@ aside {
 }
 
 .login-content svg {
+  background-color: var(--black);
+  border: solid var(--yellow);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
   color: var(--white);
+  padding: 9px;
   position: absolute;
-  left: 20px;
-  top: calc(50% - 12px);
+  left: 10px;
+  top: calc(50% - 22px);
+  width: 44px;
+  height: 44px;
+}
+
+.login-content svg:hover {
+  background-color: var(--light-black);
+  border: solid var(--light-yellow);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  color: var(--white);
+  padding: 9px;
+  position: absolute;
+  left: 10px;
+  top: calc(50% - 22px);
+  width: 44px;
+  height: 44px;
 }
