@@ -106,7 +106,7 @@ aside {
 }
 
 .login-content button:hover{
-  width: 230px;
+  width: 250px;
   padding: 9px;
 
   color: var(--light-yellow);
