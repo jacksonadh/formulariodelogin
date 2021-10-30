@@ -13,13 +13,13 @@
   --light-yellow: #ffdc73;
 }
 main {
-  display: flex;
+  display: flex; 
+  background-color: var(--black);
+  color: var(--white);
 }
 aside {
   width: 50vw;
   height: 100vh;
-  background-color: var(--black);
-  color: var(--white);
 }
 
 .image {
